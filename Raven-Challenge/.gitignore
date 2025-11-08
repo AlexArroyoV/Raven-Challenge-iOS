@@ -1,0 +1,71 @@
+# ============================
+# 🔹 Xcode / iOS general
+# ============================
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.swp
+*.swo
+
+# Ignore Xcode project files generated per-user
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+project.xcworkspace/
+xcshareddata/
+xcuserdata/
+
+# ============================
+# 🔹 Swift Package Manager
+# ============================
+.build/
+Packages/
+Package.resolved
+
+# ============================
+# 🔹 CocoaPods
+# ============================
+Pods/
+Podfile.lock
+
+# ============================
+# 🔹 Carthage
+# ============================
+Carthage/Build/
+
+# ============================
+# 🔹 Fastlane
+# ============================
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+
+# ============================
+# 🔹 IDEs / Editor
+# ============================
+.idea/
+.vscode/
+
+# ============================
+# 🔹 Bitbucket / CI
+# ============================
+*.log
+*.tmp
+*.env
+.env.*
+*.xcresult
+
+# ============================
+# 🔹 Miscellaneous
+# ============================
+*.moved-aside
+*.orig
+*.rej
+*.bak
+*.tmp
